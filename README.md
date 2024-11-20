@@ -1,50 +1,31 @@
-# React + TypeScript + Vite
+# Instituto Zanolli
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação front-end desenvolvido usando **React, TypeScript e Vite**.
 
-Currently, two official plugins are available:
+## 💻 Requisitos
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Você deve ter o Node.js e o NPM instalados em sua máquina. 
 
-## Expanding the ESLint configuration
+## 🚀 Instalando 
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+Primeiro você deve clonar o projeto na sua máquina ->
 
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+```bash
+git clone https://github.com/guilhermezimmermann/orders-challenge.git](https://github.com/Guilherme-Zimmermann/zanolli-ui.git
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+Na parte do front-end utilize o seguinte comando para instalar as dependências:
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+```bash
+npm install
 ```
+
+### Edite a .env de acordo com a .env.exemple e preencha os campos necessários
+
+Por fim, para rodar o projeto execute o seguinte:
+
+```bash
+npm run dev
+```
+
+
