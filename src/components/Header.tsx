@@ -24,7 +24,7 @@ export function Header() {
               Detalhes
             </button>
           </div>
-          <div className="w-[32rem] max-md:h-[21rem] mr-8 absolute right-0 max-md:left-6 top-28 -z-50 max-md:w-96">
+          <div className="w-[32rem] max-md:h-[21rem] mr-8 absolute right-0 max-md:left-6 top-28 max-md:top-60 -z-50 max-md:w-[19rem] max-md:opacity-50">
             <img
               src={`${imgUrl ? imgUrl : "/assets/ImagemHeader.jpg"}`}
               alt=""
