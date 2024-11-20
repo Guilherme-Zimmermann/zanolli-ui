@@ -26,7 +26,7 @@ export function Header() {
           </div>
           <div className="w-[32rem] max-md:h-[21rem] mr-8 absolute right-0 max-md:left-6 top-28 -z-50 max-md:w-96">
             <img
-              src={`${imgUrl ? imgUrl : "src/assets/ImagemHeader.jpg"}`}
+              src={`${imgUrl ? imgUrl : "/assets/ImagemHeader.jpg"}`}
               alt=""
               className="w-full h-full object-cover"
             />
