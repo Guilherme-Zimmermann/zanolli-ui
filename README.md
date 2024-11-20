@@ -20,7 +20,7 @@ Na parte do front-end utilize o seguinte comando para instalar as dependências:
 npm install
 ```
 
-# Edite a .env de acordo com a .env.exemple e preencha os campos necessários
+### Edite a .env de acordo com a .env.exemple e preencha os campos necessários
 
 Por fim, para rodar o projeto execute o seguinte:
 
