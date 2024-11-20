@@ -11,7 +11,9 @@ export function Header() {
   return (
     <header>
       <div>
-        <h1 className="text-2xl font-medium">Instituto Zanolli</h1>
+        <h1 className="text-2xl font-medium flex gap-4 items-center">
+          Instituto Zanolli <img src="/assets/Logo.jpg" className="w-16" />
+        </h1>
         <div className="flex justify-between items-center">
           <div className="mt-52">
             <h2 className="text-5xl font-semibold">
