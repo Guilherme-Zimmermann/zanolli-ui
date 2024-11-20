@@ -94,7 +94,7 @@ function App() {
               Sobre nós
             </h2>
             <div>
-              <p className="max-md:text-center w-[20rem] md:w-[38rem] mt-10 font-light">
+              <p className="max-md:text-center w-[18rem] md:w-[38rem] mt-10 font-light">
                 O Instituto Zanolli foi fundado em 05 de Setembro de 1997, pela
                 artista Plastica Luzia Zanolli. Ao longo dos anos o Instituto
                 Zanolli vem participando de diversas ações no município de
@@ -122,7 +122,7 @@ function App() {
               </p>
             </div>
           </div>
-          <div className="mt-32">
+          <div className="mt-32 flex max-md:justify-center">
             <a
               className="p-4 px-8 bg-emerald-400 rounded-3xl text-secondary flex gap-2 items-center hover:bg-emerald-400/80 w-max"
               href={whatsappLink}
@@ -132,7 +132,7 @@ function App() {
             </a>
           </div>
         </div>
-        <div className="mt-64">
+        <div className="mt-64 max-md:mt-32">
           <Footer />
         </div>
       </div>
