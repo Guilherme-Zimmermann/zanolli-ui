@@ -128,7 +128,7 @@ function App() {
               href={whatsappLink}
             >
               Nos chame no Whatsapp
-              <img src="/src/assets/whatsappIcon.svg" alt="" width={18} />
+              <img src="/public/whatsappIcon.svg" alt="" width={18} />
             </a>
           </div>
         </div>
